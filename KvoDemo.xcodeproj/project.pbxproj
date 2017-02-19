@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE655FFB1E59892600A9980B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE655FFA1E59892600A9980B /* AppDelegate.m */; };
+		EE655FFE1E59892600A9980B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE655FFD1E59892600A9980B /* main.m */; };
+		EE6560001E59892600A9980B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE655FFF1E59892600A9980B /* Assets.xcassets */; };
+		EE6560031E59892600A9980B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6560011E59892600A9980B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE655FF61E59892600A9980B /* KvoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KvoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE655FF91E59892600A9980B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE655FFA1E59892600A9980B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE655FFD1E59892600A9980B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE655FFF1E59892600A9980B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6560021E59892600A9980B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EE6560041E59892600A9980B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE655FF31E59892600A9980B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE655FED1E59892600A9980B = {
+			isa = PBXGroup;
+			children = (
+				EE655FF81E59892600A9980B /* KvoDemo */,
+				EE655FF71E59892600A9980B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE655FF71E59892600A9980B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE655FF61E59892600A9980B /* KvoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE655FF81E59892600A9980B /* KvoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE655FF91E59892600A9980B /* AppDelegate.h */,
+				EE655FFA1E59892600A9980B /* AppDelegate.m */,
+				EE655FFF1E59892600A9980B /* Assets.xcassets */,
+				EE6560011E59892600A9980B /* MainMenu.xib */,
+				EE6560041E59892600A9980B /* Info.plist */,
+				EE655FFC1E59892600A9980B /* Supporting Files */,
+			);
+			path = KvoDemo;
+			sourceTree = "<group>";
+		};
+		EE655FFC1E59892600A9980B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE655FFD1E59892600A9980B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE655FF51E59892600A9980B /* KvoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6560071E59892600A9980B /* Build configuration list for PBXNativeTarget "KvoDemo" */;
+			buildPhases = (
+				EE655FF21E59892600A9980B /* Sources */,
+				EE655FF31E59892600A9980B /* Frameworks */,
+				EE655FF41E59892600A9980B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KvoDemo;
+			productName = KvoDemo;
+			productReference = EE655FF61E59892600A9980B /* KvoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE655FEE1E59892600A9980B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = jinren;
+				TargetAttributes = {
+					EE655FF51E59892600A9980B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49XFPF8C85;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE655FF11E59892600A9980B /* Build configuration list for PBXProject "KvoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE655FED1E59892600A9980B;
+			productRefGroup = EE655FF71E59892600A9980B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE655FF51E59892600A9980B /* KvoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE655FF41E59892600A9980B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6560001E59892600A9980B /* Assets.xcassets in Resources */,
+				EE6560031E59892600A9980B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE655FF21E59892600A9980B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE655FFE1E59892600A9980B /* main.m in Sources */,
+				EE655FFB1E59892600A9980B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE6560011E59892600A9980B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6560021E59892600A9980B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6560051E59892600A9980B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE6560061E59892600A9980B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE6560081E59892600A9980B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = KvoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.KvoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE6560091E59892600A9980B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = KvoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.KvoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE655FF11E59892600A9980B /* Build configuration list for PBXProject "KvoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6560051E59892600A9980B /* Debug */,
+				EE6560061E59892600A9980B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6560071E59892600A9980B /* Build configuration list for PBXNativeTarget "KvoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6560081E59892600A9980B /* Debug */,
+				EE6560091E59892600A9980B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE655FEE1E59892600A9980B /* Project object */;
+}
